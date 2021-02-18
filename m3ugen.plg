@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: m3ugen - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Slippy\LOCALS~1\Temp\RSPEB.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/m3ugen.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\m3ugen\m3ugen.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Slippy\LOCALS~1\Temp\RSPEB.tmp" 
+Creating temporary file "C:\DOCUME~1\Slippy\LOCALS~1\Temp\RSPEC.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/m3ugen.pdb" /machine:I386 /out:"Release/m3ugen.exe" 
+.\Release\m3ugen.obj
+.\Release\StdAfx.obj
+.\Release\Script1.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Slippy\LOCALS~1\Temp\RSPEC.tmp"
+<h3>Output Window</h3>
+Compiling...
+m3ugen.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+m3ugen.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
